@@ -1,0 +1,79 @@
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.Properties.Resources.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.csproj.GenerateResource.Cache
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.pdb
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.exe
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.pdb
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.FrmLogin.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPrincipal.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmCadUsuario.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmUsuarioNome.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.CadProduto.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmCadFornecedor.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe.config
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaEstoque.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.CadCliente.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaCliente.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmVerRelatorios.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmOrdemServico.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmBaixa.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmHistoricoBaixa.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisarOS.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmEntrada.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaEntrada.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe.config
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.exe
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.pdb
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.pdb
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.CadCliente.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.CadProduto.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmBaixa.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmCadFornecedor.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmCadUsuario.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmEntrada.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmHistoricoBaixa.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.FrmLogin.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmOrdemServico.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaCliente.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaEntrada.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaEstoque.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisarOS.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPrincipal.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmRelatorioOS.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmUsuarioNome.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmVerRelatorios.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.Properties.Resources.resources
+C:\Users\Fátima de Deus\Desktop\Projetos da Dord\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.csproj.GenerateResource.Cache
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmRelatorioOS.resources
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe.config
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.exe
+C:\Documents and Settings\joao\Desktop\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.pdb
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe.config
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.exe
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.pdb
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.exe
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\bin\Debug\Sistema Comercial - Marine Center.pdb
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.CadCliente.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.CadProduto.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmBaixa.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmCadFornecedor.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmCadUsuario.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmEntrada.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmHistoricoBaixa.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.FrmLogin.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmOrdemServico.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaCliente.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaEntrada.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisaEstoque.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPesquisarOS.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmPrincipal.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmRelatorioOS.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmUsuarioNome.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmVerRelatorios.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.Properties.Resources.resources
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema Comercial - Marine Center.csproj.GenerateResource.Cache
+C:\Documents and Settings\joao\Desktop\MarineCenter\Sistema Comercial - Marine Center4\Sistema Comercial - Marine Center\obj\Debug\Sistema_Comercial___Marine_Center.frmImprimir.resources

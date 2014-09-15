@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A2FB75C-34F7-4E84-912C-ECFEA3E8EFB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sistema_Comercial___Marine_Center</RootNamespace>
+    <AssemblyName>Sistema Comercial - Marine Center</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\10.5.3700.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.ReportSource\10.5.3700.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Shared\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=2.5.1.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CadCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadCliente.Designer.cs">
+      <DependentUpon>CadCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadProduto.Designer.cs">
+      <DependentUpon>CadProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelatorioProdutos.cs">
+      <DependentUpon>RelatorioProdutos.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RelatorioProdutos_Custo.cs">
+      <DependentUpon>RelatorioProdutos_Custo.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RelatorioProdutos_Venda.cs">
+      <DependentUpon>RelatorioProdutos_Venda.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaixa.Designer.cs">
+      <DependentUpon>frmBaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadFornecedor.Designer.cs">
+      <DependentUpon>frmCadFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadUsuario.Designer.cs">
+      <DependentUpon>frmCadUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntrada.Designer.cs">
+      <DependentUpon>frmEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoricoBaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoricoBaixa.Designer.cs">
+      <DependentUpon>frmHistoricoBaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimir.Designer.cs">
+      <DependentUpon>frmImprimir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdemServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdemServico.Designer.cs">
+      <DependentUpon>frmOrdemServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPesquisaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPesquisaCliente.Designer.cs">
+      <DependentUpon>frmPesquisaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPesquisaEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPesquisaEntrada.Designer.cs">
+      <DependentUpon>frmPesquisaEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPesquisaEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPesquisaEstoque.Designer.cs">
+      <DependentUpon>frmPesquisaEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPesquisarOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPesquisarOS.Designer.cs">
+      <DependentUpon>frmPesquisarOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioOS.Designer.cs">
+      <DependentUpon>frmRelatorioOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarioNome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarioNome.Designer.cs">
+      <DependentUpon>frmUsuarioNome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerRelatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerRelatorios.Designer.cs">
+      <DependentUpon>frmVerRelatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcoes.cs" />
+    <Compile Include="MarineCenterDS.cs">
+      <DependentUpon>MarineCenterDS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarineCenterDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MarineCenterDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Produto.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CadCliente.resx">
+      <DependentUpon>CadCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadProduto.resx">
+      <DependentUpon>CadProduto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioProdutos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioProdutos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioProdutos_Custo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioProdutos_Custo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioProdutos_Venda.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioProdutos_Venda.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaixa.resx">
+      <DependentUpon>frmBaixa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadFornecedor.resx">
+      <DependentUpon>frmCadFornecedor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadUsuario.resx">
+      <DependentUpon>frmCadUsuario.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntrada.resx">
+      <DependentUpon>frmEntrada.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoricoBaixa.resx">
+      <DependentUpon>frmHistoricoBaixa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimir.resx">
+      <DependentUpon>frmImprimir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdemServico.resx">
+      <DependentUpon>frmOrdemServico.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesquisaCliente.resx">
+      <DependentUpon>frmPesquisaCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesquisaEntrada.resx">
+      <DependentUpon>frmPesquisaEntrada.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesquisaEstoque.resx">
+      <DependentUpon>frmPesquisaEstoque.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesquisarOS.resx">
+      <DependentUpon>frmPesquisarOS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioOS.resx">
+      <DependentUpon>frmRelatorioOS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarioNome.resx">
+      <DependentUpon>frmUsuarioNome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerRelatorios.resx">
+      <DependentUpon>frmVerRelatorios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioOScomSubReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioOScomSubReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioProdutos_Venda_Custo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioProdutos_Venda_Custo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio_OS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Relatorio_OS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportOS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="MarineCenterDS.xsc">
+      <DependentUpon>MarineCenterDS.xsd</DependentUpon>
+    </None>
+    <None Include="MarineCenterDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MarineCenterDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MarineCenterDS.xss">
+      <DependentUpon>MarineCenterDS.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RelatorioOScomSubReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioOScomSubReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelatorioProdutos_Venda_Custo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioProdutos_Venda_Custo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio_OS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Relatorio_OS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportOS.cs">
+      <DependentUpon>ReportOS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Run.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Empty1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
